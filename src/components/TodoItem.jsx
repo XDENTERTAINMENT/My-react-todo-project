@@ -18,11 +18,10 @@ function TodoItem(props) {
   }
 
   return (
-    <li className='list-group-item 
-        text-capitalize
-        d-flex 
-        justify-content-between 
-        align-items-center'>
+    <li className="list-group-item 
+    d-flex 
+    justify-content-between
+     align-items-start">
 
       <div className="d-flex align-items-center">
         <input 
