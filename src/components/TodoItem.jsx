@@ -30,10 +30,13 @@ function TodoItem(props) {
           checked={checked}
           onChange={() => setChecked(!checked)}
         />
-
-        <h6 style={styles} className="mb-0">
+        
+        <h6 style={styles}  
+        
+        className="mb-0 flex-grow-1 text-break me-2">
           {props.title}
         </h6>
+       
       </div>
 
       <div className='todo-icon'>
